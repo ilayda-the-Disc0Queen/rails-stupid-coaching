@@ -1,2 +1,8 @@
-<h1>Coach's answer!</h1>
-<p><%= @answer %></p>
+<div class="container">
+  <div class="card"></div>
+  <h1>Coach's answer!</h1>
+  <p>You said: <%= params[:question] %></p>
+  <p>Coach says: <%= @answer %></p>
+  <%= link_to "Ask again", ask_path %>
+  </div>
+</div>

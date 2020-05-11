@@ -1,3 +1,29 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// .container {
+
+// }
+
+// .card {
+//   justify-content: center;
+// }
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
